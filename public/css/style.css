@@ -420,6 +420,8 @@ header {
 
 nav {
   float: right;
+}
+nav ul {
   margin-top: 0px;
 }
 nav li {
@@ -567,6 +569,7 @@ aside ul {
   padding: 0;
 }
 aside ul a {
+  color: #eee;
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
@@ -576,7 +579,7 @@ aside ul a {
   line-height: 25px;
 }
 aside ul a:hover {
-  color: #447821;
+  color: #000;
 }
 
 /*******************************************************************************/
