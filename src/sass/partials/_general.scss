@@ -209,7 +209,7 @@ aside{
 	ul{
 		padding:0;
 		a{
-			color: lighten(#000,15%);
+			color: #eee;
 			@include transition-duration(1s);
 			font-size: 13px;
 			text-decoration: none;
