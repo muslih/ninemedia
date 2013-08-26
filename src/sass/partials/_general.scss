@@ -65,7 +65,9 @@ header{
 }
 nav{
 	float: right;
-	margin-top: 0px;
+	ul{
+		margin-top: 0px;
+	}
 	li{
 		float: left;
 		list-style: none;
