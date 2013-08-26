@@ -209,12 +209,13 @@ aside{
 	ul{
 		padding:0;
 		a{
+			color: lighten(#000,15%);
 			@include transition-duration(1s);
 			font-size: 13px;
 			text-decoration: none;
 			line-height: 25px;
 			&:hover{
-				color: darken($mainColor,10%);
+				color: #000;
 			}
 		}
 	}
