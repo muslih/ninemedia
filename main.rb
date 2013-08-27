@@ -2,25 +2,21 @@ require 'rubygems'
 require 'sinatra'
 require 'sinatra/reloader' if development?
 get '/' do
-	@slogan = "<strong>Paduhost</strong><em>Layanan murah web hosting indonesia</em>"
+	# @slogan = "<strong>Paduhost</strong><em>Layanan murah web hosting indonesia</em>"
 	# @title = "Awal"
 	erb :home
 end
 
-get '/kontak' do
-	@title = "Kontak"
-	erb :contact
+get '/it' do
+	@title = "IT Development"
+	erb :it
 end
 
-get '/fitur' do
-	@title = "Fitur Paduhost"
-	erb :fitur
+get '/web' do
+	@title = "Web Development"
+	erb :web
 end
 
-get '/hosting' do
-	@title = "Paket Hosting"
-	erb :hosting
-end
 
 not_found do
 	@title = "404"
