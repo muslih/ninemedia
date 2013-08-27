@@ -442,9 +442,9 @@ nav li a {
 }
 nav li a:hover {
   color: #5aa02c;
-  -webkit-box-shadow: 0px 10px #5aa02c inset;
-  -moz-box-shadow: 0px 10px #5aa02c inset;
-  box-shadow: 0px 10px #5aa02c inset;
+  -webkit-box-shadow: 0px -10px #5aa02c inset;
+  -moz-box-shadow: 0px -10px #5aa02c inset;
+  box-shadow: 0px -10px #5aa02c inset;
 }
 nav li a.active {
   color: #444;

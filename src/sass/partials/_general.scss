@@ -31,11 +31,9 @@ button{
 h1,h2{
 	font-family: 'Armata', sans-serif;
 }
-
 h2{
 	font-size: 16px;
 }
-
 .garis{
 	text-align: center;
 	&:after{
@@ -80,7 +78,7 @@ nav{
 			text-decoration: none;
 			&:hover{
 				color: $mainColor;
-				@include box-shadow(0px 10px $mainColor inset);
+				@include box-shadow(0px -10px $mainColor inset);
 			}
 			&.active{
 				color: #444;
