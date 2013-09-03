@@ -227,4 +227,25 @@ aside{
 footer{
 	color: #fff;
 	background: darken($mainColor,20%);
+	.kredit{
+		text-align: right;
+		float: right;
+
+		li{
+			display: inline-table;
+			margin-left: 15px;
+			img{
+				@include transition-duration(1s);
+				opacity:0.5;
+				float: left;
+				&:hover{
+					opacity: 1;
+				}
+			}
+
+			&:first-child{
+				margin-left: 0;
+			}
+		}
+	}
 }

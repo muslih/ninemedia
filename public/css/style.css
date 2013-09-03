@@ -589,6 +589,28 @@ footer {
   color: #fff;
   background: #2d5016;
 }
+footer .kredit {
+  text-align: right;
+  float: right;
+}
+footer .kredit li {
+  display: inline-table;
+  margin-left: 15px;
+}
+footer .kredit li img {
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  opacity: 0.5;
+  float: left;
+}
+footer .kredit li img:hover {
+  opacity: 1;
+}
+footer .kredit li:first-child {
+  margin-left: 0;
+}
 
 /*******************************************************************************/
 /*     font awesome
