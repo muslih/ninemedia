@@ -14,7 +14,7 @@ end
 
 get '/web' do
 	@title = "Web Development"
-	erb :web
+	erb :webdev
 end
 
 
