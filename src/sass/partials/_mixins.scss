@@ -7,7 +7,7 @@
 }
 
 @mixin main-font{
-	font-family: 'Armata', sans-serif;
+	font-family: $mainFont;
 }
 
 @mixin tombol($bg:$mainColor,$col: #fff,$size:$mainFontSize){
