@@ -207,6 +207,10 @@ aside{
 	}
 	ul{
 		padding:0;
+		li{
+			@extend p;
+			line-height:20px;
+		}
 		a{
 			color: #eee;
 			@include transition-duration(1s);

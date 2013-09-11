@@ -347,7 +347,7 @@ a {
   color: #5aa02c;
 }
 
-p {
+p, aside ul li {
   font-size: 14px;
   line-height: 20px;
 }
@@ -517,7 +517,7 @@ nav li a.active {
   color: #5aa02c;
   margin: 5px 0;
 }
-#fitur p {
+#fitur p, #fitur aside ul li, aside ul #fitur li {
   margin-top: 0;
 }
 #fitur button {
@@ -562,11 +562,14 @@ aside h2 {
 aside li {
   list-style: none;
 }
-aside p, aside ul {
+aside p, aside ul li, aside ul {
   margin: 5px 0;
 }
 aside ul {
   padding: 0;
+}
+aside ul li {
+  line-height: 20px;
 }
 aside ul a {
   color: #eee;
