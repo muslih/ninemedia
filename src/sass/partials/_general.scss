@@ -11,6 +11,20 @@ p{
 	line-height: 20px;
 }
 
+li,dt,dd{
+	@extend p;
+}
+
+dt{
+	font-weight: bold;
+}
+
+dd{
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+
+
 .kanan{
 	float: right;
 }
@@ -91,13 +105,6 @@ nav{
 /*******************************************************************************/
 /*     section
 /*******************************************************************************/
-
-section{
-	li{
-		font-size:14px;
-		line-height:20px;
-	}
-}
 
 #slide{
 	background: #000;

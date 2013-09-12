@@ -347,9 +347,18 @@ a {
   color: #5aa02c;
 }
 
-p {
+p, li, dt, dd {
   font-size: 14px;
   line-height: 20px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 10px;
 }
 
 .kanan {
@@ -456,11 +465,6 @@ nav li a.active {
 /*******************************************************************************/
 /*     section
 /*******************************************************************************/
-section li {
-  font-size: 14px;
-  line-height: 20px;
-}
-
 #slide {
   background: #000;
   text-align: center;
@@ -522,7 +526,7 @@ section li {
   color: #5aa02c;
   margin: 5px 0;
 }
-#fitur p {
+#fitur p, #fitur li, #fitur dt, #fitur dd {
   margin-top: 0;
 }
 #fitur button {
@@ -567,7 +571,7 @@ aside h2 {
 aside li {
   list-style: none;
 }
-aside p, aside ul {
+aside p, aside li, aside dt, aside dd, aside ul {
   margin: 5px 0;
 }
 aside ul {
