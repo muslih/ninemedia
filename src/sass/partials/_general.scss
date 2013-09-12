@@ -92,6 +92,13 @@ nav{
 /*     section
 /*******************************************************************************/
 
+section{
+	li{
+		font-size:14px;
+		line-height:20px;
+	}
+}
+
 #slide{
 	background: #000;
 	text-align: center;
@@ -207,10 +214,7 @@ aside{
 	}
 	ul{
 		padding:0;
-		li{
-			font-size:13px;
-			line-height:20px;
-		}
+
 		a{
 			color: #eee;
 			@include transition-duration(1s);

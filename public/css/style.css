@@ -347,7 +347,7 @@ a {
   color: #5aa02c;
 }
 
-p, aside ul li {
+p {
   font-size: 14px;
   line-height: 20px;
 }
@@ -456,6 +456,11 @@ nav li a.active {
 /*******************************************************************************/
 /*     section
 /*******************************************************************************/
+section li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
 #slide {
   background: #000;
   text-align: center;
@@ -517,7 +522,7 @@ nav li a.active {
   color: #5aa02c;
   margin: 5px 0;
 }
-#fitur p, #fitur aside ul li, aside ul #fitur li {
+#fitur p {
   margin-top: 0;
 }
 #fitur button {
@@ -562,14 +567,11 @@ aside h2 {
 aside li {
   list-style: none;
 }
-aside p, aside ul li, aside ul {
+aside p, aside ul {
   margin: 5px 0;
 }
 aside ul {
   padding: 0;
-}
-aside ul li {
-  line-height: 20px;
 }
 aside ul a {
   color: #eee;
