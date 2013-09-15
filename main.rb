@@ -17,6 +17,11 @@ get '/web' do
 	erb :webdev
 end
 
+get '/contact' do
+	@title = "Kontak"
+	erb :kontak
+end
+
 
 not_found do
 	@title = "404"
