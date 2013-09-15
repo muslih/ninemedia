@@ -17,7 +17,7 @@ get '/web' do
 	erb :webdev
 end
 
-get '/contact' do
+get '/kontak' do
 	@title = "Kontak"
 	erb :kontak
 end
